@@ -1,0 +1,64 @@
+{
+    "recepies": [
+        {
+            "categorie": "1",
+            "tempCategorie": "25",
+            "tempName": "DAMN HOT!",
+            "bgImg": "images/background.jpg",
+            "name": "Mini <br> Yogurt <br> Popsicles",
+            "ingredients": "2 Cups Greek Yogurt <br> 0.5 Cup raw honey <br> 1 Cup mixed berries, washed",
+            "img": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/Categorie_1.png",
+            "inImage": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/inimage1",
+            "howTo": "Blend yogurt and honey together <br> in a large bowl. Fold mixed berries <br> in. Transfer into a container with <br> a spout so the mixture can be <br> into popsicle molds. <br> Fill popsicle molds close the top <br> and put in popsicle sticks.<br> ",
+            "likes": "112"
+        },
+        {
+            "categorie": "2",
+            "tempCategorie": "24",
+            "tempName": "SUNNY",
+            "bgImg": "images/background2.jpg",
+            "name": "Lemonade with <br> grapfruit <br> and Lime",
+            "ingredients": "0.5 cup fresh lime juice <br> 0.5 cup fresh lemon juice <br> 0.75  cup sugar <br> 4 cups cold water <br> 1 lemon, sliced <br> ice cubes.",
+            "img": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/Categorie_2.png",
+            "inImage": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/inimage2",
+            "howTo": "In a pitcher combine lime <br> grapefruit lemon juice and sugar.<br> strir to disolve the sugar <br> add remaining ingredients and stir until well  blended <br> makes 12 servings. ",
+            "likes": "56"
+        },
+        {
+            "categorie": "1",
+            "tempCategorie": "36",
+            "tempName": "DAMN HOT!",
+            "bgImg": "images/background3.jpg",
+            "name": "Watermelon Mint <br> Cheese Bites",
+            "ingredients": "2 cups watermelon (cut into cubes) <br> 0.5 lb fresh mozzarella (in small balls or cubes) <br> 0.5 cup fresh mint <br> 0.25 lb prosciutto (thinly sliced)<br> 0.25 cup olive oil <br> 0.25 cup balsamic vinegar.",
+            "img": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/Categorie_1.png",
+            "inImage": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/inimage3",
+            "howTo": "Mix equal parts oil and vinegar - about 1/8 cup of each to start  <br> and increase depending on how many you are making. Mix cheese <br> and vinegar mixture until cheese is lightly coated.<br> Assemble watermelon, cheese, small folded pieces of prosciutto <br> and mint leaves on a toothpick, starting with the  <br> watermelon and cheese on the bottom, topped by <br> the prosciutto and finally the mint leaf. Serve at once.",
+            "likes": "42"
+        },
+        {
+            "categorie": "3",
+            "tempCategorie": "30",
+            "tempName": "DAMN HOT!",
+            "bgImg": "images/background4.jpg",
+            "name": "Moroccan Lentil Salad",
+            "ingredients": "1/2 cup dry lentils <br> 1 1/2 cups water <br> 1/2 (15 ounce) can garbanzo beans, drained <br> 4 green onions, chopped <br> 2 minced hot green chile peppers <br> 1 green bell pepper, chopped <br> 1/2 yellow bell pepper, chopped <br> 1 red bell pepper, chopped <br> 1 lime, juiced <br> 2 tablespoons olive oil <br>",
+            "img": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/Categorie_1.png",
+            "inImage": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/inimage4",
+            "howTo": "Place lentils and water in a pot. Bring water to boil <br> , reduce to simmer. Cook for 30 minutes or until tender. <br> In a medium size mixing bowl combine lentils, chickpeas, tomatoes, <br> green onions, green chilies, bell peppers, lime juice, <br> olive oil, cilantro, and salt to taste. Toss well. <br> Chill for 20 minutes. Serve chilled.",
+            "likes": "35"
+        },
+        {
+            "categorie": "4",
+            "tempCategorie": "22",
+            "tempName": "SUNNY",
+            "bgImg": "images/background5.jpg",
+            "name": "Chicken Caesar",
+            "ingredients": "1 free-range egg <br> 2 tbsp extra-virgin olive oil <br> 1 tsp garlic oil <br> 3 tbsp grated parmesan cheese <br> juice ½ lemon <br> ½ tsp sea salt flakes <br> 1 Romaine or Cos lettuce <br> 150g/5¼oz cold leftover chicken",
+            "img": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/Categorie_2.png",
+            "inImage": "http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/inimage5",
+            "howTo": "Crack the egg into a bowl and whisk well <br> while you add the oils, parmesan and lemon juice. <br>  If you’re not going to add an anchovy <br>  or two, whisk in the salt. <br> Break the crisp lettuce into bite-sized pieces <br> and put into a salad bowl. Drop in the shredded <br> cold chicken and mix to combine. Season <br> with black pepper, to taste. <br> Toast the tortilla chips for a couple of minutes <br>  in an oil-less pan over a medium heat.",
+            "likes": "45"
+        }
+    ]
+}

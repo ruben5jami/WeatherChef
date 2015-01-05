@@ -1,0 +1,665 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@media all and (min-width: 640px){
+    /*general*/
+    #wrapper{
+        width:640px;
+        height: auto;
+        margin: 0 auto;
+    }  
+    
+    #categorieLogo{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        float: left;
+    }
+        
+    #MenuLogo{
+        position: relative;
+        top: -120px;
+        left: 0px;
+        float: right;
+    }
+    
+    #dots{
+        position: relative;
+        bottom: -400px;
+    }
+    
+    /*Fonts*/
+    @font-face{
+    font-family: font1;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/BebasNeue%20Bold.otf);
+    }
+    @font-face{
+    font-family: font2;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/BebasNeue%20Book.otf);
+    }
+    @font-face{
+    font-family: font3;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/BebasNeue%20Light.otf);
+    }
+    @font-face{
+    font-family: font4;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/BebasNeue%20Regular.otf);
+    }
+    @font-face{
+    font-family: font5;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/BebasNeue%20Thin.otf);
+    }
+    @font-face{
+    font-family: font6;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_bld.otf);
+    }
+    @font-face{
+    font-family: font7;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_bld_it.otf);
+    }
+    @font-face{
+    font-family: font8;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_blk.otf);
+    }
+    @font-face{
+    font-family: font9;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_blk_it.otf);
+    }
+    @font-face{
+    font-family: font10;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_light.otf);
+    }
+    @font-face{
+    font-family: font11;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_light_it.otf);
+    }
+    @font-face{
+    font-family: font12;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_med.otf);
+    }
+    @font-face{
+    font-family: font13;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_med_it.otf);
+    }
+    @font-face{
+    font-family: font14;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_reg.otf);
+    }
+    @font-face{
+    font-family: font15;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_reg_it.otf);
+    }
+    @font-face{
+    font-family: font16;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_thin.otf);
+    }
+    @font-face{
+    font-family: font17;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_thin_it.otf);
+    }
+    @font-face{
+    font-family: font18;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Bold%20Italic.otf);
+    }
+    @font-face{
+    font-family: font19;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Bold.otf);
+    }
+    @font-face{
+    font-family: font20;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Light%20Italic.otf);
+    }
+    @font-face{
+    font-family: font21;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Light.otf);
+    }
+    @font-face{
+    font-family: font22;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Regular%20Italic.otf);
+    }
+    @font-face{
+    font-family: font23;
+    src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Regular.otf);
+    }
+    
+    /*recipes*/
+    #options>article{
+        width: 640px;
+        height: 1136px;
+    }
+    
+    #options>article>h1{
+        position: relative;
+        top: 50px;
+        font-family: font19;
+        font-size:550%;
+        }
+    
+    #options>article>h3{
+        position: relative;
+        top: 50px;
+        font-family: font2;
+        font-size:250%;
+    }
+    
+    #options>article>p{
+        position : relative;
+        bottom : -400px;
+        font-family: font23;
+        left: 30px;
+        font-size:350%;
+    }  
+        
+    
+    /*Menu Page*/
+    #menuPage{
+        width: 640px;
+        height: 1136px;
+    }
+    #menuMenu{
+        border-bottom: solid black 2px;
+    }
+    
+    #menu2{
+        height: 1032px;
+        width: 640px;
+        position:relative;
+        top: 104px;
+    }
+    
+    #menuTitle{
+        float:left;
+        height: 104px;
+        width:420px;
+        font-family: font6;
+        font-size: 280%;
+        position: relative;
+        left: 100px;
+        margin-top: 25px;
+        
+    }
+    #back3{
+        float:left;
+        font-size: 240%;
+        margin-top: 25px;
+        height: 104px;
+        width:157px;
+        font-family: font6;
+    }
+    
+    
+    #searchBox{
+        float:left;
+        position: relative;
+        top: 5px;
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/search2.png");
+        height: 104px;
+        width: 63px;
+    }
+    
+    #menuCategories{
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        height: 200px;
+        width: 640px;
+    }
+    
+    #menuCategories2{
+        float: left;
+        height: 67px;
+        width: 70px;
+        position: relative;
+        bottom: 70px;
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/menu1.png");
+    }
+    #menuCategories3{
+        float: right;
+        position:relative;
+        right: 270px;
+        bottom: 70px;
+        font-family: font6;
+        font-size: 280%;
+    }
+    
+    #menuSaved{
+        border-bottom: solid black 2px;
+        height: 200px;
+        width: 640px;
+    }
+    
+    #menuSaved2{
+        float: left;
+        position:relative;
+        top: 70px;
+        height: 67px;
+        width: 70px;
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/menu2.png");
+    }
+    #menuSaved3{
+        float: right;
+        position:relative;
+        right: 210px;
+        top: 70px;
+        font-family: font6;
+        font-size: 280%;
+    }
+    
+    #menuBlack{
+        border-bottom: solid black 2px;
+        height: 200px;
+        width: 640px;
+    }
+    
+    #menuBlack2 {
+        float: left;
+        position:relative;
+        top: 70px;
+        height: 67px;
+        width: 70px;
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/menu3.png");
+    }
+    #menuBlack3{
+        float: right;
+        position:relative;
+        right: 310px;
+        top: 70px;
+        font-family: font6;
+        font-size: 280%;
+    }
+    
+    
+    
+    /*Black List*/
+    #blackList{
+        height: 1136px;
+        width: 640px;
+    }
+    
+    #blackList2{
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/black_list2.png");
+        height: 1032px;
+        width: 640px;
+        position:relative;
+        top: 104px;
+    }
+    
+    #blackListTitle{
+        float:right;
+        height: 104px;
+        font-family: font6;
+        font-size: 280%;
+        position: relative;
+        margin-top: 25px;
+        right: 210px;
+    }
+    #back{
+        float:left;
+        font-size: 240%;
+        margin-top: 25px;
+        height: 104px;
+        font-family: font6;
+    }
+    
+    /*favourite*/
+    #saved{
+        height: 1136px;
+        width: 640px;
+    }
+    
+    #saved2{
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/saved_reciep.png");
+        height: 1032px;
+        width: 640px;
+        position:relative;
+        top: 104px;
+    
+    }
+    
+    #back2{
+        float:left;
+        font-size: 240%;
+        margin-top: 25px;
+        height: 104px;
+        font-family: font6;
+    }
+    
+    #savedTitle{
+        float:right;
+        height: 104px;
+        font-family: font6;
+        font-size: 280%;
+        position: relative;
+        margin-top: 25px;
+        right: 190px;
+    }
+    
+    /*categories*/
+    #categorie{
+        height:1136px;
+        width: 640px;
+    }
+    
+    #appetizer{
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/AppetizerPic.jpg");
+        height: 562px;
+        width: 316px;    
+        float: left;
+        border-right: solid black 4px;
+        border-bottom: solid black 5px;  
+    }
+    
+    #mainCourse{
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/MainCoursesPic.jpg");
+        height: 563px;
+        width: 316px;        
+        float: right;
+        border-left: solid black 4px; 
+        border-bottom: solid black 5px;     
+    }
+    
+    #coldDrinks{
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/ColdDrinksPic.jpg");
+        height: 562px;
+        width: 316px;    
+        float: left;
+        border-right: solid black 4px;
+        border-top: solid black 5px;   
+    }
+    
+    #desert{
+        background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/DesertsPic.jpg");
+        height: 563px;
+        width: 316px;    
+        float: right;
+        border-left: solid black 4px;  
+        border-top: solid black 5px;
+    }
+    
+    /*recepies*/
+    
+    #firstRecipe{
+    	width: 640px;
+    }
+    
+    #menuRecipe{
+        margin-top: 25px;
+        height: 104px;
+        width:640px;
+    }
+    
+    #recipeContent{
+    	width: 640px;
+    	font-size: 240%;
+    	font-family: font6;
+    }
+    
+    #menuLogoRecipe{
+    	background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/MenuLogo.png");
+    	float: left;
+    	height: 104px;
+    	width: 114px;
+    	position: relative;
+        
+    }
+    
+    #back5{
+        float:left;
+        font-size: 240%;
+        margin-top: 25px;
+        height: 104px;
+        width:157px;
+        font-family: font6;
+    }
+    
+    #recipeMenuTitle{
+    	float:left;
+        height: 104px;
+        width:360px;
+        font-family: font6;
+        font-size: 280%;
+        position: relative;
+        left: 100px;
+        margin-top: 25px;    
+    }
+    
+    #indredientPhoto{
+    	background-image:url("http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/images/inimage1.jpg");
+    	height: 390px;
+    	width: 640px;
+    }
+    
+    #recipeTitle{
+    	width: 640px;
+    	padding-top: 30px;
+    	text-align: center;
+    	border-bottom: solid 1px black;
+    }
+    
+    #like{
+    	float: left;
+    	position: relative;
+    	left:180px;
+    	font-size: 240%;
+    	padding-right: 80px;
+    	font-family: font6;
+    }
+    #save{
+    	float: right;
+    	position: relative;
+    	right:180px;
+    	font-size: 240%;
+    	padding-left: 80px;
+    	font-family: font6;
+    }
+    
+    #like2{
+        position: relative;
+        right 100px;
+        font-family: font14;
+    }
+    
+    #save2{
+        position: relative;
+        right 100px;
+        font-family: font14;
+    }
+    
+    #like_it{
+        position: relative;
+        left: 15px;
+    }
+    
+    #save_it{
+        position: relative;
+        left: 15px;
+    }
+    #like_it2{
+        position: relative;
+        left: 15px;
+    }
+    
+    #save_it2{
+        position: relative;
+        left: 15px;
+    }
+    
+    #contentIngredients{
+        font-family: font14;
+    }
+    #contentRecipe{
+        font-family: font14;
+    }
+}
+
+@media all and (max-width: 639px) and (min-width: 200px){
+    
+        @font-face{
+        font-family: font19;
+        src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Bold.otf);
+        }
+        @font-face{
+        font-family: font2;
+        src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/BebasNeue%20Book.otf);
+        }
+        @font-face{
+        font-family: font23;
+        src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Odin%20Rounded%20-%20Regular.otf);
+        }
+        @font-face{
+        font-family: font6;
+        src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_bld.otf);
+        }
+        @font-face{
+        font-family: font14;
+        src: url(http://shenkar.html5-book.co.il/2013-2014/html5/dev_34/fonts/Brandon_reg.otf);
+        }
+        #wrapper{
+            width:340px;
+            height: auto;
+            margin: 0 auto;
+        }  
+        #options{
+            background-size: 80px 60px;
+        }
+        
+        #options>article>h1{
+            font-family: font19;
+            position: relative;
+            top: 30px;
+            }
+        
+        #options>article>h3{
+            font-family: font2;
+            position: relative;
+            top: 30px;
+        }
+        
+        #options>article>p{
+            font-family: font23;
+            font-size: 130%;
+        }  
+        #categorieLogo{
+            position: relative;
+            top: 0px;
+            left: 0px;
+            height: 195px;
+            width: 120px;
+            float: left;
+        }
+            
+        #MenuLogo{
+            position: relative;
+            top: -40px;
+            right: 0px;
+            height: 50px;
+            width: 52px;
+            float: right;
+        }
+    
+        #dots{
+            visibility:hidden;
+        }
+        
+        /*categories*/
+        #categorie{
+            height:500px;
+            width: 320px;
+        }
+        
+        #appetizer{
+            position: relative;
+            top: -150px;
+            height: 120px;
+            width: 320px;    
+        }
+        
+        #mainCourse{
+            position: relative;
+            top: -50px;
+            height: 120px;
+            width: 320px;         
+        }
+        
+        #coldDrinks{
+            position: relative;
+            top: 0px;
+            height: 120px;
+            width: 320px;   
+        }
+        
+        #desert{
+            position: relative;
+            top: 100px;
+            height: 120px;
+            width: 320px;    
+        }
+        
+        /*recepie*/
+        #contentIngredients{
+            font-family: font14;
+        }
+        #contentRecipe{
+            font-family: font14;
+        }
+        #recipeContent{
+            font-family: font6;
+        }
+        #back5{
+            font-family: font6;
+        }
+        
+        #recipeMenuTitle{
+            font-family: font6;  
+        }
+        #like{
+            font-family: font6;
+        }
+        #save{
+            font-family: font6;
+        }
+        
+        #like2{
+            font-family: font14;
+        }
+        
+        #save2{
+            font-family: font14;
+        }
+        
+        /*favorites*/
+        #back2{
+            font-family: font6;
+        }
+        
+        #savedTitle{
+            font-family: font6;
+        }
+        
+        /*black list*/
+        #blackListTitle{
+            font-family: font6;
+        }
+        #back{
+            font-family: font6;
+        }
+        
+        /*Menu Page*/
+        #menuTitle{
+            font-family: font6;
+        }
+        #back3{
+            font-family: font6;
+        } 
+        #menuCategories3{
+            font-family: font6;
+        }
+        #menuSaved3{
+            font-family: font6;
+        }
+        #menuBlack3{
+            font-family: font6;
+        }
+}
+    
+
